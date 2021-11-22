@@ -3,9 +3,9 @@
 Welcome to the MT Half-Marathon Evaluation tutorial! In this tutorial we will learn to use some tools that will be crucial in assessing MT quality in our future research!
 
 These tools are:
-- SacreBLEU
-- COMET
-- MT-Telescope
+- [SacreBLEU](https://github.com/mjpost/sacrebleu)
+- [COMET](https://github.com/Unbabel/COMET)
+- [MT-Telescope](https://github.com/Unbabel/MT-Telescope)
 
 When reporting the lexical-metrics such as BLEU a lot of times we get different results depending on implementations and/or tokenization applied. SacreBLEU [(Post, 2018)](https://aclanthology.org/W18-6319/) provides hassle-free computation of shareable, comparable, and reproducible lexical metrics.  In this tutorial we will use SacreBLEU to run both BLEU and chrF.
 
