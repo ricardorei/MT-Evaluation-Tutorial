@@ -145,7 +145,7 @@ awk 'NR==6 || NR==7 || NR==14 || NR==27' reference.en.txt > ua-reference.en.txt
 
 _6) Run comet-score for both systems with the `--mc_dropout 15` flag. What is the recomputed score for segment 27 (segment 3) for both systems?_
 
-Using Uncertainty techniques such as Monte Carlo Dropout seems to "correct" some COMET predictions yet ideally we would like the variance to give us more reliable information about samples where the model is not prroviding good estimates. Keep posted for more research in this direction and contact [Taisiya Glushkova](taisiya.glushkova@tecnico.ulisboa.pt) if you are interested in this topic!
+Using [Uncertainty techniques](https://aclanthology.org/2021.findings-emnlp.330/) such as Monte Carlo Dropout seems to "correct" some COMET predictions yet ideally we would like the variance to give us more reliable information about samples where the model is not prroviding good estimates. Keep posted for more research in this direction and contact [Taisiya Glushkova](taisiya.glushkova@tecnico.ulisboa.pt) if you are interested in this topic!
 
 
 # Part III - MT-Telescope
@@ -198,7 +198,7 @@ _a) Did the overall results change?_
 
 _b) Do you find the segment-level comparion plot useful?_
 
-_3) Another common weakness of some MT systems is their inability to accurately translate long segments [(Koehn and Knowler, 2017)](https://aclanthology.org/W18-6319/). Having this into consideration, MT-Telescope also provides the functionality of chosing the interval of segments to be tested according to their length. In this exercise, choose the top 50% longest segments and compare again the results._
+_3) Another common weakness of some MT systems is their inability to accurately translate long segments [(Koehn and Knowles, 2017)](https://aclanthology.org/W17-3204/). Having this into consideration, MT-Telescope also provides the functionality of chosing the interval of segments to be tested according to their length. In this exercise, choose the top 50% longest segments and compare again the results._
 
 
 
