@@ -74,8 +74,6 @@ sacrebleu reference.en.txt -i OnlineA.en.txt -m bleu -l ru-en
 
 ## Runing Paired Bootstrap Resampling:
 
-TODO: add an explanation about the null hypothesis and how bootstrap resampling works!
-
 ```bash
 sacrebleu reference.en.txt -i OnlineA.en.txt OnlineB.en.txt -m bleu -l ru-en -pbs -pbsn 25
 ```
