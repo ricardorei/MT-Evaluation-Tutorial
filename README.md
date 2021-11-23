@@ -35,6 +35,7 @@ Download the tutorial data using the following command:
 
 ```bash
 wget https://unbabel-experimental-data-sets.s3.eu-west-1.amazonaws.com/mt-half-marathon/tutorial-data.tar.gz
+# Or alternatively download it from this repo.
 
 tar -xf tutorial-data.tar.gz
 
